@@ -3,7 +3,7 @@
 To run this project you need Docker running on your local machine,
 after that just run the following command in the root of the project:
 ```
-./gradlew bootRun
+gradlew bootRun
 ```
 Create a new order
 ```shell
