@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://prod-db:5432/orders
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+  docker:
+    compose:
+      enabled: false
+
+logging:
+  level:
+    root: WARN
